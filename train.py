@@ -19,6 +19,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import Normal
 import gymnasium as gym
+import shimmy
+
+gym.register_envs(shimmy)
 
 # ---------------------------------------------------------------------------
 # Sparse weight initialization
