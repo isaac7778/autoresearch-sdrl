@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s https://raw.githubusercontent.com/mohmdelsayed/streaming-drl/main/README.md)",
+      "Bash(uv --version)",
+      "PowerShell(uv --version)",
+      "Bash(curl -s https://raw.githubusercontent.com/Farama-Foundation/Gymnasium/main/gymnasium/core.py)",
+      "Bash(curl -s https://raw.githubusercontent.com/Farama-Foundation/Gymnasium/main/gymnasium/wrappers/common.py)",
+      "Bash(python3 -c \"import gymnasium\")",
+      "Bash(python -c \"import gymnasium\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Farama-Foundation/Gymnasium/main/gymnasium/core.py\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Farama-Foundation/Gymnasium/v0.29.1/gymnasium/core.py\")",
+      "Bash(py --version)",
+      "Bash(pip --version)",
+      "Bash(python3 -m py_compile train.py)",
+      "Bash(cd /tmp)",
+      "Bash(python3 -m venv sdrl-test)",
+      "Bash(echo \"exit: $?\")",
+      "Read(//tmp/**)",
+      "Bash(./sdrl-test/Scripts/python.exe -m pip install --quiet --upgrade pip)",
+      "Bash(./sdrl-test/Scripts/python.exe -m pip install --quiet torch numpy \"gymnasium[mujoco]\")",
+      "Bash(/tmp/sdrl-test/Scripts/python.exe -c \"import torch, numpy, gymnasium; print\\('torch', torch.__version__\\); print\\('numpy', numpy.__version__\\); print\\('gymnasium', gymnasium.__version__\\)\")",
+      "Bash(/tmp/sdrl-test/Scripts/python.exe -c ' *)"
+    ]
+  }
+}
